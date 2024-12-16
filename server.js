@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://boat-blond.vercel.app/", // URL do frontend
+    origin: "https://boat-blond.vercel.app", // URL do frontend
     methods: ["GET", "POST"],
   },
 });
